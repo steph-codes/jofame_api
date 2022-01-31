@@ -64,7 +64,7 @@ class OdooController extends Controller
             $fields = [];
             $offset = 0;
             #$limit = 20;
-            try {¬
+            try {
                 $products = $this->client->search_read(
                         'product.template', $criteria, $fields, $limit);
                 return $products;
