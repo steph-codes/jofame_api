@@ -6,10 +6,7 @@
     "type": "project",
     "require": {
         "php": "^7.3|^8.0",
-        "consilience/laravel-odoo-api-client": "^0.11.0",
-        "darkaonline/ripcord": "^0.1.8",
         "laravel/lumen-framework": "^8.3.1",
-        "obuchmann/laravel-odoo-api": "^0.5.0@beta",
         "tbondois/odoo-ripcord": "^1.5"
     },
     "require-dev": {
@@ -41,10 +38,6 @@
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ]
-    },
-    "repositories": [{
-        "type": "vcs",
-        "url": "https://github.com/consilience/laravel-odoo-api-client.git"
-    }]
+    }
 
 }

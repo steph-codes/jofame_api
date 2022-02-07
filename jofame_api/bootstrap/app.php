@@ -99,17 +99,17 @@ $app->configure('app');
 // $app->register(App\Providers\AuthServiceProvider::class);
 // $app->register(App\Providers\EventServiceProvider::class);
 // $app->register(Obuchmann\LaravelOdooApi\src\Providers\OdooServiceProvider::class);
-$app->register(Obuchmann\LaravelOdooApi\Providers\OdooServiceProvider::class);
-$app->register(\Ripcord\Providers\Laravel\ServiceProvider::class);
+// $app->register(Obuchmann\LaravelOdooApi\Providers\OdooServiceProvider::class);
+//$app->register(\Ripcord\Providers\Laravel\ServiceProvider::class);
 // $app->register(Consilience\OdooApi\OdooServiceProvider::class);
 
 
-if (!class_exists('Odoo')) {
-    //class_alias('Obuchmann\LaravelOdooApi\src\Facades\Odoo', 'Odoo');
+// if (!class_exists('Odoo')) {
+//     //class_alias('Obuchmann\LaravelOdooApi\src\Facades\Odoo', 'Odoo');
 
-    class_alias('Obuchmann\LaravelOdooApi\Facades\Odoo', 'Odoo');
+//     class_alias('Obuchmann\LaravelOdooApi\Facades\Odoo', 'Odoo');
 
-};
+// };
 /*
 |--------------------------------------------------------------------------
 | Load The Application Routes
